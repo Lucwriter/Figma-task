@@ -1,0 +1,209 @@
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   padding: 20px 80px 20px 80px;
+   border-bottom: 1px solid #ccc;
+    
+}
+header nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul .active{
+   color: #065666;
+   font-weight: 670px;
+}
+
+
+
+.logo img{ 
+    width: 120px;
+}
+
+/* styling of drop-down icons */
+.dropdowns{
+    padding-left: 10px;
+}
+
+
+/* styling navs button */
+
+
+
+.header_btn a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+}
+
+/* hero section style */
+
+/* hero-btn styling */
+.hero-btn a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+}
+
+.hero-btn{
+    display: flex;
+    gap: 20px;
+}
+/* hero container stlye */
+.hero-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+   
+.hero_writeup{
+    width: 700px;
+    text-align: center;
+   margin-top: 70px;
+}
+
+.hero_writeup h1{
+    padding-bottom: 20px;
+    font-size: 45px;
+    line-height: 1.5;
+}
+
+.hero_writeup p{
+    font-size: 19px;
+    line-height: 2;
+}
+
+.hero_image img{
+  width: 800px;
+}
+
+/* main section */
+/* trustedby sectiom */
+
+main{
+    margin-block: 30px;
+}
+
+.trustedby-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trustedby_writeup{
+    width: 900px;
+    text-align: center;
+}
+
+.trustedby_writeup h1{
+    padding-bottom: 5px;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.trustedby_writeup p{
+    font-size: 18px;
+    line-height: 2;
+   
+}
+
+.trusted_companies img{
+    width: 200px;
+    /* gap: 20px; */
+}
+
+.trusted_companies{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+    
+}
+
+/* value section */
+
+.value-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+    color:  #FFFFFF;
+
+}
+
+.value_writeup{
+    text-align: center;
+    width: 600px;
+    padding-bottom: 40px;
+   
+}
+
+.value_writeup h1{
+    padding-bottom: 10px;
+    font-size: 25px;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+.value_writeup p{
+    font-size: 16px;
+    line-height: 2;
+   
+}
+
+.value_table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+.table_item{
+    width: 310px;
+
+}
+.table_item h1{
+   padding-bottom: 10px;
+}
+.table_item p{
+    padding-bottom: 10px;
+ }
+
+ /* accurate section */
+
+ .accurate_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .accurate_writeup{
+    text-align: center;
+    width: 790px;
+
+ }
+ .accurate_writeup h1{
+    padding-bottom: 20px;
+ }
+
+ .accurate-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .accurate-image img{
+    width: 500px;
+ }
+
+
